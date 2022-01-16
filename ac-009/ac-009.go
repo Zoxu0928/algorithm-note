@@ -1,9 +1,12 @@
 package main
 
-import "container/list"
+import (
+	"container/list"
+	"fmt"
+)
 
 func main() {
-
+	fmt.Println("completed!!")
 }
 
 type CQueue struct {
